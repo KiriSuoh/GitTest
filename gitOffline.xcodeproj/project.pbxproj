@@ -1,0 +1,519 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FE730E411D47394C00326742 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FE730E401D47394C00326742 /* main.m */; };
+		FE730E441D47394C00326742 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FE730E431D47394C00326742 /* AppDelegate.m */; };
+		FE730E471D47394C00326742 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FE730E461D47394C00326742 /* ViewController.m */; };
+		FE730E4A1D47394C00326742 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE730E481D47394C00326742 /* Main.storyboard */; };
+		FE730E4C1D47394C00326742 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FE730E4B1D47394C00326742 /* Assets.xcassets */; };
+		FE730E4F1D47394C00326742 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE730E4D1D47394C00326742 /* LaunchScreen.storyboard */; };
+		FE730E5A1D47394C00326742 /* gitOfflineTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FE730E591D47394C00326742 /* gitOfflineTests.m */; };
+		FE730E651D47394C00326742 /* gitOfflineUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = FE730E641D47394C00326742 /* gitOfflineUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FE730E561D47394C00326742 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FE730E341D47394C00326742 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FE730E3B1D47394C00326742;
+			remoteInfo = gitOffline;
+		};
+		FE730E611D47394C00326742 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FE730E341D47394C00326742 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FE730E3B1D47394C00326742;
+			remoteInfo = gitOffline;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FE730E3C1D47394C00326742 /* gitOffline.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = gitOffline.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE730E401D47394C00326742 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FE730E421D47394C00326742 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FE730E431D47394C00326742 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FE730E451D47394C00326742 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		FE730E461D47394C00326742 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FE730E491D47394C00326742 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FE730E4B1D47394C00326742 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FE730E4E1D47394C00326742 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FE730E501D47394C00326742 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FE730E551D47394C00326742 /* gitOfflineTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = gitOfflineTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE730E591D47394C00326742 /* gitOfflineTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = gitOfflineTests.m; sourceTree = "<group>"; };
+		FE730E5B1D47394C00326742 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FE730E601D47394C00326742 /* gitOfflineUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = gitOfflineUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE730E641D47394C00326742 /* gitOfflineUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = gitOfflineUITests.m; sourceTree = "<group>"; };
+		FE730E661D47394C00326742 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FE730E391D47394C00326742 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE730E521D47394C00326742 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE730E5D1D47394C00326742 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FE730E331D47394C00326742 = {
+			isa = PBXGroup;
+			children = (
+				FE730E3E1D47394C00326742 /* gitOffline */,
+				FE730E581D47394C00326742 /* gitOfflineTests */,
+				FE730E631D47394C00326742 /* gitOfflineUITests */,
+				FE730E3D1D47394C00326742 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FE730E3D1D47394C00326742 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FE730E3C1D47394C00326742 /* gitOffline.app */,
+				FE730E551D47394C00326742 /* gitOfflineTests.xctest */,
+				FE730E601D47394C00326742 /* gitOfflineUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FE730E3E1D47394C00326742 /* gitOffline */ = {
+			isa = PBXGroup;
+			children = (
+				FE730E421D47394C00326742 /* AppDelegate.h */,
+				FE730E431D47394C00326742 /* AppDelegate.m */,
+				FE730E451D47394C00326742 /* ViewController.h */,
+				FE730E461D47394C00326742 /* ViewController.m */,
+				FE730E481D47394C00326742 /* Main.storyboard */,
+				FE730E4B1D47394C00326742 /* Assets.xcassets */,
+				FE730E4D1D47394C00326742 /* LaunchScreen.storyboard */,
+				FE730E501D47394C00326742 /* Info.plist */,
+				FE730E3F1D47394C00326742 /* Supporting Files */,
+			);
+			path = gitOffline;
+			sourceTree = "<group>";
+		};
+		FE730E3F1D47394C00326742 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FE730E401D47394C00326742 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FE730E581D47394C00326742 /* gitOfflineTests */ = {
+			isa = PBXGroup;
+			children = (
+				FE730E591D47394C00326742 /* gitOfflineTests.m */,
+				FE730E5B1D47394C00326742 /* Info.plist */,
+			);
+			path = gitOfflineTests;
+			sourceTree = "<group>";
+		};
+		FE730E631D47394C00326742 /* gitOfflineUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FE730E641D47394C00326742 /* gitOfflineUITests.m */,
+				FE730E661D47394C00326742 /* Info.plist */,
+			);
+			path = gitOfflineUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FE730E3B1D47394C00326742 /* gitOffline */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FE730E691D47394C00326742 /* Build configuration list for PBXNativeTarget "gitOffline" */;
+			buildPhases = (
+				FE730E381D47394C00326742 /* Sources */,
+				FE730E391D47394C00326742 /* Frameworks */,
+				FE730E3A1D47394C00326742 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = gitOffline;
+			productName = gitOffline;
+			productReference = FE730E3C1D47394C00326742 /* gitOffline.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FE730E541D47394C00326742 /* gitOfflineTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FE730E6C1D47394C00326742 /* Build configuration list for PBXNativeTarget "gitOfflineTests" */;
+			buildPhases = (
+				FE730E511D47394C00326742 /* Sources */,
+				FE730E521D47394C00326742 /* Frameworks */,
+				FE730E531D47394C00326742 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FE730E571D47394C00326742 /* PBXTargetDependency */,
+			);
+			name = gitOfflineTests;
+			productName = gitOfflineTests;
+			productReference = FE730E551D47394C00326742 /* gitOfflineTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FE730E5F1D47394C00326742 /* gitOfflineUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FE730E6F1D47394C00326742 /* Build configuration list for PBXNativeTarget "gitOfflineUITests" */;
+			buildPhases = (
+				FE730E5C1D47394C00326742 /* Sources */,
+				FE730E5D1D47394C00326742 /* Frameworks */,
+				FE730E5E1D47394C00326742 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FE730E621D47394C00326742 /* PBXTargetDependency */,
+			);
+			name = gitOfflineUITests;
+			productName = gitOfflineUITests;
+			productReference = FE730E601D47394C00326742 /* gitOfflineUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FE730E341D47394C00326742 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = CyberChen;
+				TargetAttributes = {
+					FE730E3B1D47394C00326742 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					FE730E541D47394C00326742 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = FE730E3B1D47394C00326742;
+					};
+					FE730E5F1D47394C00326742 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = FE730E3B1D47394C00326742;
+					};
+				};
+			};
+			buildConfigurationList = FE730E371D47394C00326742 /* Build configuration list for PBXProject "gitOffline" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FE730E331D47394C00326742;
+			productRefGroup = FE730E3D1D47394C00326742 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FE730E3B1D47394C00326742 /* gitOffline */,
+				FE730E541D47394C00326742 /* gitOfflineTests */,
+				FE730E5F1D47394C00326742 /* gitOfflineUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FE730E3A1D47394C00326742 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE730E4F1D47394C00326742 /* LaunchScreen.storyboard in Resources */,
+				FE730E4C1D47394C00326742 /* Assets.xcassets in Resources */,
+				FE730E4A1D47394C00326742 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE730E531D47394C00326742 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE730E5E1D47394C00326742 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FE730E381D47394C00326742 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE730E471D47394C00326742 /* ViewController.m in Sources */,
+				FE730E441D47394C00326742 /* AppDelegate.m in Sources */,
+				FE730E411D47394C00326742 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE730E511D47394C00326742 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE730E5A1D47394C00326742 /* gitOfflineTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE730E5C1D47394C00326742 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE730E651D47394C00326742 /* gitOfflineUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FE730E571D47394C00326742 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FE730E3B1D47394C00326742 /* gitOffline */;
+			targetProxy = FE730E561D47394C00326742 /* PBXContainerItemProxy */;
+		};
+		FE730E621D47394C00326742 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FE730E3B1D47394C00326742 /* gitOffline */;
+			targetProxy = FE730E611D47394C00326742 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FE730E481D47394C00326742 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FE730E491D47394C00326742 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FE730E4D1D47394C00326742 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FE730E4E1D47394C00326742 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FE730E671D47394C00326742 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FE730E681D47394C00326742 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FE730E6A1D47394C00326742 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = gitOffline/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = self.gitOffline;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FE730E6B1D47394C00326742 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = gitOffline/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = self.gitOffline;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		FE730E6D1D47394C00326742 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = gitOfflineTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = self.gitOfflineTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/gitOffline.app/gitOffline";
+			};
+			name = Debug;
+		};
+		FE730E6E1D47394C00326742 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = gitOfflineTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = self.gitOfflineTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/gitOffline.app/gitOffline";
+			};
+			name = Release;
+		};
+		FE730E701D47394C00326742 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = gitOfflineUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = self.gitOfflineUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = gitOffline;
+			};
+			name = Debug;
+		};
+		FE730E711D47394C00326742 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = gitOfflineUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = self.gitOfflineUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = gitOffline;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FE730E371D47394C00326742 /* Build configuration list for PBXProject "gitOffline" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE730E671D47394C00326742 /* Debug */,
+				FE730E681D47394C00326742 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FE730E691D47394C00326742 /* Build configuration list for PBXNativeTarget "gitOffline" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE730E6A1D47394C00326742 /* Debug */,
+				FE730E6B1D47394C00326742 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FE730E6C1D47394C00326742 /* Build configuration list for PBXNativeTarget "gitOfflineTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE730E6D1D47394C00326742 /* Debug */,
+				FE730E6E1D47394C00326742 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FE730E6F1D47394C00326742 /* Build configuration list for PBXNativeTarget "gitOfflineUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE730E701D47394C00326742 /* Debug */,
+				FE730E711D47394C00326742 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FE730E341D47394C00326742 /* Project object */;
+}
